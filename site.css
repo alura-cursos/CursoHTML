@@ -1,0 +1,166 @@
+body {
+	font-family: "Crimson Text", "Times New Roman", serif;
+	background-color: #F2FFFC;
+	font-size: 120%;
+	line-height: 1.5;
+}
+
+h1, h2 {
+	font-family: "Open Sans Condensed", "Arial", sans-serif;
+}
+
+.titulo-principal {
+	text-align: center;
+	background-color: #851944;
+	color: #FFF;
+	padding: 25px;
+	border-bottom: 10px solid black;
+	font-size: 60px;
+	text-transform: uppercase;
+}
+
+p {
+	text-align: justify;
+	margin: 20px 0;
+}
+
+.citacao-bio {
+	background-color: #D9E5E3;
+	border: 10px solid #C2CCCA;
+	width: 250px;
+	box-sizing: border-box;
+	margin: 20px 40px;
+}
+
+.navegacao-site {
+	text-align: center;
+	background-color: #3C1D3D;
+	color: #F2FFFC;
+}
+
+.rodape-pagina {
+	background-color: #000;
+	color: #F2FFFC;
+	clear: both;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}
+
+main a {
+	color: #851944;
+}
+
+.navegacao-site a {
+	color: inherit;
+	font-family: "Open Sans Condensed", sans-serif;
+}
+
+.citacao-bio, .navegacao-site, .rodape-pagina {
+    padding: 20px;
+}
+
+.container {
+	width: 720px;
+	margin: auto;
+	padding: 30px 0;
+}
+
+.navegacao-site h1 {
+	font-size: 30px;
+	margin-bottom: 25px;
+}
+
+strong {
+	font-weight: bold;
+}
+
+em {
+	font-style: italic;
+}
+
+.subtitulo-texto {
+	font-size: 30px;
+	clear: both;
+}
+
+.icones-redes-sociais li {
+	display: inline-block;
+}
+
+.artigo {
+	padding-bottom: 30px;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 20px;
+}
+
+.leia-mais {
+	padding: 8px;
+	margin: 16px;
+	display: block;
+	font-size: 24px;
+	text-align: center;
+	background-color: #E6E7E8;
+}
+
+nav a {
+	text-transform: lowercase;
+}
+
+.icones-redes-sociais a {
+	width: 40px;
+	height: 40px;
+	display: block;
+	text-indent: -99999px;
+}
+
+.github {
+	background-image: url(github.png);
+}
+
+.twitter {
+	background-image: url(twitter.png);
+}
+
+.linkedin {
+	background-image: url(linkedin.png);
+}
+
+.fiat {
+	float: right;
+}
+
+.petrobras {
+	float: left;
+}
+
+main {
+	float: left;
+	width: 85%;
+	padding-bottom: 80px;
+}
+
+.minha-foto, .navegacao-site {
+	float: right;
+	box-sizing: border-box;
+	border-left: 10px solid black;
+	border-bottom: 10px solid black;
+}
+
+cite {
+	font-style: italic;
+	float: right;
+}
+
+.minha-foto {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.navegacao-site {
+	width: 15%;
+	position: relative;
+	top: 310px;
+}
